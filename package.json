@@ -1,7 +1,7 @@
 {
   "name": "elysia-compress",
   "description": "Elysia Compression that supports Brotli, GZIP, and Deflate compression",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": {
     "name": "Ashary Vermaysha",
     "email": "vermaysha@gmail.com",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vermaysha/elysia-compress.git"
+    "url": "git+https://github.com/togger-tech/elysia-compress.git"
   },
-  "url": "https://github.com/vermaysha/elysia-compress",
-  "bugs": "https://github.com/vermaysha/elysia-compress/issues",
-  "homepage": "https://github.com/vermaysha/elysia-compress",
+  "url": "https://github.com//togger-tech/elysia-compress",
+  "bugs": "https://github.com//togger-tech/elysia-compress/issues",
+  "homepage": "https://github.com//togger-tech/elysia-compress",
   "keywords": [
     "elysia",
     "compression",
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "exports": {
-    "bun": "./dist/index.js",
+    "bun": "./src/index.ts",
     "node": "./dist/cjs/index.js",
     "require": "./dist/cjs/index.js",
     "import": "./dist/index.js",

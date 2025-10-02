@@ -67,12 +67,12 @@ const app = new Elysia().use(
 ### Disable compression by header
 
 You can selectively disable response compression by using the `x-no-compression` header in the request.
-You can still disable this option by adding `disableByHeader: true` to options. Default to `false`
+You can still disable this option by adding `disableByHeader: false` to options. Default to `true`
 
 ```typescript
 const app = new Elysia().use(
   compression({
-    disableByHeader: true,
+    disableByHeader: false,
   }),
 )
 ```

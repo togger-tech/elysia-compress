@@ -57,7 +57,7 @@ export const compression = (
   const threshold = options?.threshold ?? 1024
   const cacheTTL = options?.TTL ?? 24 * 60 * 60 // 24 hours
   const disableByHeader = options?.disableByHeader ?? true
-  const compressStream = options?.compressStream ?? true
+  const compressStream = options?.compressStream ?? false
   const app = new Elysia({
     name: 'elysia-compress',
   })
